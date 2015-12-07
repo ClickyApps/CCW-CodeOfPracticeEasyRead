@@ -1,47 +1,34 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CCW EasyRead App</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>CCW EasyRead App</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body class="languageSelection">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-        
-    	<img src="images/logo.png" width="261"/ class="landing-logo">
-        
-        <div class="content home">
-        	<h2 class="purple">Côd Ymarfer</h2>
-            <h3 class="purple">Fersiwn hawdd i’w darllen</h3>
-            <h2 class="blue">Code of Practice</h2>
-            <h3 class="blue">Easy read version</h3>
-            <a class="bigLink purple" href="cymraeg/index.html" title="Cymraeg">
-                <img src="images/next-arrow.png"/><h2>Cymraeg</h2>
-            </a>
-            <a class="bigLink blue" href="english/index.html" title="English">
-                <img src="images/next-arrow.png"/><h2>English</h2>
-            </a>
-        </div>
-        
-        <footer>
-        	<!-- <img src="images/voiceabilityLogo.jpg" width="97" height="38"/> -->
-            <img src="images/aboutLogos2.png" style="margin: 30px auto; display: block; max-width: 100%;">
-        </footer>
-        
-        <script src="js/jquery.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-    </body>
+		<link rel="stylesheet" href="style.css">
+		<script src="js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div class="container landing">
+			<img src="images/logo.png" class="logo" alt="Care Council for Wales logo">
+			<h1 class="welsh">Côd Ymarfer</h1>
+			<h2 class="welsh">Fersiwn hawdd i’w darllen</h2>
+			<h1 class="english">Code of Practice</h1>
+			<h2 class="english">Easy read version</h2>
+			<div class="links">
+				<a class="big_link purple" href="cymraeg/index.html" lang="cy">Cymraeg</a>
+				<a class="big_link blue" href="english/index.html">English</a>
+			</div>
+			<div class="logos">
+				<img src="images/Learning_Disability_Wales.jpg" alt="Learning Disability Wales" class="ldw">
+				<img src="images/photosymbols.png" alt="Made with Photosymbols" class="ps">
+			</div>
+		</div><!-- container -->
+		<script src="js/jquery.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
