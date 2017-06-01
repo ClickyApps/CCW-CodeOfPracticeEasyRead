@@ -221,7 +221,7 @@ nav a.right:after { background-image: url(images/new-images/right-arrow-new.png)
 .questions #slider .owl-item > div img { bottom: 46px; }
 .questions #slider .top p { position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; padding: 0; width: 90%; }
 
-.hard_words h1 { width: 100%; color: #ea5d51; font-size: 22px; margin: 0;  text-align: left; font-family: 'Gibson-Regular', sans-serif; font-weight: 300; margin: 15% 0 5% 10%;}
+.hard_words h1 { color: #ea5d51; font-size: 22px; margin: 0;  text-align: left; font-family: 'Gibson-Regular', sans-serif; font-weight: 300; margin: 15% 0 5% 10%;}
 .hard_words h1 img { width: 26px; margin-right: 10px; vertical-align: middle; }
 .hard_words h2 {margin-left: 10%; padding-right: 30%; text-align: left; font-size: 18px; font-weight: 600; color: #393144;  margin-bottom: 60px; line-height: 25px; font-family: 'Gibson-Regular', sans-serif;}
 .hard_words .word_list { list-style-type: none; padding-left: 0; margin-bottom: 0; }
