@@ -141,7 +141,7 @@ nav a.right:after { background-image: url(images/new-images/right-arrow-new.png)
 .slider_nav .back_home { display: none; }
 .slider_nav a.right { padding-right: 20px; }
 .landing { padding: 0; }
-.landing .wrapper {padding-top: 0; margin-left: 10%; margin-top: 15%;}
+.landing .wrapper {padding-top: 0; margin-left: 10%; margin-top: 15%; width: auto;}
 .landing .wrapper .logo {  margin-top: 10px; }
 .landing .wrapper h1 {font-family: 'Gibson-Light', sans-serif; margin-bottom: 0; font-size: 27px; line-height: 38px; font-weight: normal; color: #ea5d51;}
 .landing .wrapper span { font-family: 'Gibson-Regular', sans-serif; font-weight: 600; margin-bottom: 0; font-size: 22px; color: #393144; line-height: 38px;}
