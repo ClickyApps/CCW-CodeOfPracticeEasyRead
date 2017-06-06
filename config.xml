@@ -3,7 +3,7 @@
 	xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "easyread.App"
-	android-packageName="com.company.androidapp" 
+	android-packageName="com.carecouncilwales.app.socialcareworkerscodeeasyread" 
 	version     = "3.0.1">
 
 	
