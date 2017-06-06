@@ -3,7 +3,9 @@
 	xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "easyread.App"
+	android-packageName="com.company.androidapp" 
 	version     = "3.0.1">
+
 	
 	<name>Social Care Easy Read App</name>
 	
